@@ -6,9 +6,9 @@ Each project is located in its own folder and includes a Python script (`.py`) a
 
 ## The Projects
 
-### 1. ☕ Coffee Shop Inventory (`coffee/`)
-Manage a coffee shop's stock!
-- **What it does:** Reads an inventory file (this is a sample inventory - I made it up to keep it simple), calculates the total value of your stock, and alerts you if you are running low.
+### 1. ☕ Coffee Menu Analysis (`coffee/`)
+Analyze a coffee shop's menu!
+- **What it does:** Reads a menu file, finds the most expensive and cheapest items, and calculates average prices for different sizes.
 - **Key Skills:** Reading files, doing math with Python, and formatting text.
 
 ### 2. 🎬 Streaming Service Analyzer (`streaming_tv/`)
@@ -35,5 +35,19 @@ Code your own game bot!
 1. Open a folder (like `coffee/`).
 2. Read the `.md` file inside for specific details.
 3. Run the python script (the `.py` file) to see it in action!
+
+## Questions to Consider
+As you explore these projects, ask yourself:
+- How does the Python code "read" the data from the CSV file?
+- What would happen if the data in the file was missing or formatted incorrectly?
+- How could you modify the code to answer a *different* question about the data?
+- Which project logic was the easiest to follow, and which was the hardest?
+
+## Next Steps: Build Your Own!
+Ready to make your own project? Here is a roadmap:
+1. **Find a Topic:** What are you interested in? Sports, Music, Video Games?
+2. **Get Data:** Look for a CSV file on sites like Kaggle or create your own in Excel/Google Sheets.
+3. **Brainstorm:** Write down 3 questions you want to answer with your data.
+4. **Code:** Use the code in these folders as a template to get started.
 
 Happy Coding! 🐍
