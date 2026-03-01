@@ -1,6 +1,6 @@
-# Welcome to Your Python Project Workspace! 🚀
+# WELCOME CSC-117 LEARNERS! 🚀
 
-Hello! If you are new to programming, you are in the right place. This workspace contains **5 different Python projects** designed to help you learn by doing.
+Hello! If you are learning Python programming, you are in the right place. This workspace contains **5 different Python projects** designed to help you learn the possibilities of programs you can create with Python!
 
 Each project is located in its own folder and includes a Python script (`.py`) and real-world data (usually a `.csv` file).
 
@@ -8,7 +8,7 @@ Each project is located in its own folder and includes a Python script (`.py`) a
 
 ### 1. ☕ Coffee Shop Inventory (`coffee/`)
 Manage a coffee shop's stock!
-- **What it does:** Reads an inventory file, calculates the total value of your stock, and alerts you if you are running low on beans.
+- **What it does:** Reads an inventory file (this is a sample inventory - I made it up), calculates the total value of your stock, and alerts you if you are running low on beans.
 - **Key Skills:** Reading files, doing math with Python, and formatting text.
 
 ### 2. 🎬 Streaming Service Analyzer (`streaming_tv/`)
