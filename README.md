@@ -1,6 +1,6 @@
 # WELCOME CSC-117 LEARNERS! 🚀
 
-Hello! If you are learning Python programming, you are in the right place. This workspace contains **5 different Python projects** designed to help you learn the possibilities of programs you can create with Python!
+Hello! If you are learning Python programming, you are in the right place. This workspace contains five Python projects designed to help you learn the possibilities of programs involving real-world datasets that YOU can create!
 
 Each project is located in its own folder and includes a Python script (`.py`) and real-world data (usually a `.csv` file).
 
