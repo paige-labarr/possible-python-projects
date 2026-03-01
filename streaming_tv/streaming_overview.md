@@ -24,6 +24,6 @@ Each file typically contains columns for `type` (Movie/TV Show), `title`, `direc
 ## Data Sources (Datasets)
 
 The datasets used in this project were sourced from Kaggle:
-- Amazon: https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
-- Hulu: https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows
-- Netflix: https://www.kaggle.com/datasets/shivamb/netflix-shows
+- [Amazon Prime](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows)
+- [Hulu](https://www.kaggle.com/datasets/shivamb/hulu-movies-and-tv-shows)
+- [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows)

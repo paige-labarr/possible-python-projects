@@ -29,3 +29,8 @@ This is the **Dataset** containing information on various software subscriptions
 The goal of this script is to demonstrate how much money students can save by taking advantage of educational pricing. It highlights:
 - **Freebies:** Tools like GitHub Pro, Notion, and Tableau that cost $0 for students.
 - **Massive Savings:** How a student could save hundreds of dollars a month compared to standard pricing.
+
+## Data Source (Dataset)
+
+The dataset used in this project was sourced from Kaggle:
+[Student Software Discount and Pricing Data](https://www.kaggle.com/datasets/couponswift/student-software-discount-and-pricing-data)
