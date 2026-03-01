@@ -1,14 +1,14 @@
-# WELCOME CSC-117 LEARNERS! 🚀
+# Welcome FLCC CSC-117 Learners! 🚀
 
-Hello! If you are learning Python programming, you are in the right place. This workspace contains five Python projects designed to help you learn the possibilities of programs involving real-world datasets that YOU can create!
+Hello! This repository includes five Python projects designed to help you learn the possibilities of programs that YOU can create with Python!
 
 Each project is located in its own folder and includes a Python script (`.py`) and real-world data (usually a `.csv` file).
 
-## The Projects
+## ➡️ The Projects
 
 ### 1. ☕ Coffee Menu (`coffee/`)
 Analyze a coffee shop's menu!
-- **What it does:** Reads a menu file, finds the most expensive and cheapest items, and calculates average prices for different sizes.
+- **What it does:** Reads a menu file, finds the most expensive and cheapest items on the menu, and calculates average prices for different sizes.
 - **Key Skills:** Reading files, doing math with Python, and formatting text.
 
 ### 2. 🎬 Streaming Services (`streaming_tv/`)
@@ -29,6 +29,7 @@ Investigate history's most famous shipwreck.
 
 ### 5. ✂️ Rock Paper Scissors Tournament (`collab_rps/`)
 Code your own game bot!
+Note that these strategies aren't too complicated, but you can create your own strategy!
 - **What it does:** Runs a tournament between different computer strategies to see who is the ultimate Rock Paper Scissors champion.
 - **Key Skills:** Writing functions, game logic, and importing code from other files.
 
@@ -46,8 +47,8 @@ As you explore these projects, ask yourself:
 
 ## Next Steps: Build Your Own!
 Ready to make your own project? Here is a roadmap:
-1. **Find a Topic:** What are you interested in? Sports, Music, Video Games?
-2. **Get Data:** Look for a CSV file on sites like Kaggle or create your own in Excel/Google Sheets.
+1. **Find a Topic:** What are you interested in? Sports, music, video games, health?
+2. **Get Data:** Look for a CSV file on sites like [Kaggle](https://www.kaggle.com/) or create your own in Excel/Google Sheets.
 3. **Brainstorm:** Write down 3 (or more) questions you want to answer with your data.
 4. **Code:** Use the code in these folders as a template to get started.
 
