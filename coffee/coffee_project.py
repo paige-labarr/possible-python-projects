@@ -1,10 +1,6 @@
 import csv
 import os
 
-#author's note - mEdium and largE have a capital E to indicate a shot of Espresso added
-#these "E" drinks have a higher price (due to espresso) and separate cups (added sticker) from their non-espresso counterparts!
-#a mEdium or largE after 10 am may cause insomnia - not recommended
-
 def read_coffee_inventory(filepath):
     """
     reads coffee inventory data from a csv file and returns it as a list of dictionaries
@@ -50,26 +46,34 @@ def read_coffee_inventory(filepath):
 
 if __name__ == "__main__":
     # the CSV file must be in the same directory (folder) as this Python script
-    # if elsewhere, relocate or specify the correct file path
-    csv_filename = 'coffee_inventory.csv'
+    # use os.path to find the file relative to this script, no matter where you run it from
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(current_dir, 'coffee_inventory.csv')
     
     # read the data from the csv & store as inventory
-    inventory = read_coffee_inventory(csv_filename)
+    inventory = read_coffee_inventory(csv_path)
     
     if inventory:
         print("- - - - Paige's Place ☕ ☕ INVENTORY - - - -")
         
         # total number of cups in stock
         total_cups = sum(item['Inventory'] for item in inventory)
+        # calculate total value of all inventory
+        total_value = sum(item['Price'] * item['Inventory'] for item in inventory)
         
         # formatted report
         for item in inventory:
             # .2f to round to two decimal places for the price
             # <6 will left aligns the size (of the coffee) and ensure it takes up at least 6 characters for consistent formatting
             # string alignment source: https://www.geeksforgeeks.org/python/string-alignment-in-python-f-string/
-            print(f"   ☕ {item['Size']:<6} | ${item['Price']:.2f} | Cups Remaining: {item['Inventory']}")
+            
+            # Check for low stock
+            low_stock_alert = "⚠️  LOW STOCK" if item['Inventory'] < 10 else ""
+            
+            print(f"   ☕ {item['Size']:<6} | ${item['Price']:.2f} | Cups Remaining: {item['Inventory']} {low_stock_alert}")
             
         print(f"   Total supply of remaining cups ---> {total_cups}")
+        print(f"   Total value of inventory       ---> ${total_value:.2f}")
         print("- " * 23)
     else:
         print("OH NO - inventory is empty or couldn't be loaded")
