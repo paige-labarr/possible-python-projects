@@ -1,7 +1,7 @@
 import csv
 import os
 
-#author's note - mEdium and largE have a capital E on purpose for Espresso added
+#author's note - mEdium and largE have a capital E to indicate a shot of Espresso added
 #these "E" drinks have a higher price (due to espresso) and separate cups (added sticker) from their non-espresso counterparts!
 #a mEdium or largE after 10 am may cause insomnia - not recommended
 
