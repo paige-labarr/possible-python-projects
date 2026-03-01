@@ -48,7 +48,7 @@ As you explore these projects, ask yourself:
 Ready to make your own project? Here is a roadmap:
 1. **Find a Topic:** What are you interested in? Sports, Music, Video Games?
 2. **Get Data:** Look for a CSV file on sites like Kaggle or create your own in Excel/Google Sheets.
-3. **Brainstorm:** Write down 3 questions you want to answer with your data.
+3. **Brainstorm:** Write down 3 (or more) questions you want to answer with your data.
 4. **Code:** Use the code in these folders as a template to get started.
 
-Happy Coding! 🐍
+Enjoy! 🐍
