@@ -8,7 +8,7 @@ Each project is located in its own folder and includes a Python script (`.py`) a
 
 ### 1. ☕ Coffee Shop Inventory (`coffee/`)
 Manage a coffee shop's stock!
-- **What it does:** Reads an inventory file (this is a sample inventory - I made it up), calculates the total value of your stock, and alerts you if you are running low on beans.
+- **What it does:** Reads an inventory file (this is a sample inventory - I made it up to keep it simple), calculates the total value of your stock, and alerts you if you are running low.
 - **Key Skills:** Reading files, doing math with Python, and formatting text.
 
 ### 2. 🎬 Streaming Service Analyzer (`streaming_tv/`)
