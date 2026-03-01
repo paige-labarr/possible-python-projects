@@ -1,6 +1,6 @@
 import random
 
-NAME = "Strategy 3 - Counter"
+NAME = "Strategy 3 - COUNTER MY OPP"
 
 def move(opponent_last_move):
 
